@@ -15,16 +15,16 @@ warnings.filterwarnings("ignore")
 # =========================
 # EDIT THESE IF NEEDED
 # =========================
-RAW_DATA_PATH = "data/raw/movies.csv"
+RAW_DATA_PATH = "movie_metadata.csv"
 PROCESSED_DATA_PATH = "data/processed/movies_cleaned.csv"
 FIGURES_DIR = "figures"
 
 # Change these to match your dataset column names
-TITLE_COL = "title"
-RUNTIME_COL = "runtime"        # e.g. runtime, duration
-RATING_COL = "imdb_rating"     # e.g. imdb_rating, rating
-GENRE_COL = "genre"            # e.g. genre, genres
-YEAR_COL = "release_year"      # e.g. year, release_year
+TITLE_COL = "movie_title"
+RUNTIME_COL = "duration"
+RATING_COL = "imdb_score"
+GENRE_COL = "genres"
+YEAR_COL = "title_year"      
 
 # =========================
 # HELPERS
