@@ -1,0 +1,26 @@
+STAGE 3 RESULTS SUMMARY
+=======================
+
+Original rows loaded: see console output
+Rows after cleaning: 4790
+Mean runtime: 108.09
+Median runtime: 104.00
+Mean IMDb rating: 6.41
+Median IMDb rating: 6.50
+
+Correlation tests
+Pearson r = 0.3538, p = 0.000000
+Spearman rho = 0.3723, p = 0.000000
+
+Short vs Long movies
+Median runtime = 104.00
+Short mean rating = 6.059
+Long mean rating = 6.794
+T-test p-value = 0.000000
+Mann-Whitney U p-value = 0.000000
+
+Genre tests
+ANOVA p-value (runtime by genre) = 0.000000
+Kruskal-Wallis p-value (runtime by genre) = 0.000000
+ANOVA p-value (rating by genre) = 0.000000
+Kruskal-Wallis p-value (rating by genre) = 0.000000
