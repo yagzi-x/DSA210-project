@@ -15,9 +15,9 @@ warnings.filterwarnings("ignore")
 # =========================
 # EDIT THESE IF NEEDED
 # =========================
-RAW_DATA_PATH = "movie_metadata.csv"
+RAW_DATA_PATH = "data/raw/movie_metadata.csv"
 PROCESSED_DATA_PATH = "data/processed/movies_cleaned.csv"
-FIGURES_DIR = "figures"
+FIGURES_DIR = "figures/stage3"
 
 # Change these to match your dataset column names
 TITLE_COL = "movie_title"

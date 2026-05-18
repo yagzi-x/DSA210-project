@@ -21,9 +21,9 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 
 warnings.filterwarnings("ignore")
 
-DATA_PATH = "movies_cleaned.csv"
+DATA_PATH = "data/processed/movies_cleaned.csv"
 RESULTS_PATH = "stage4_ml_results_summary.txt"
-FIGURES_DIR = "stage4_figures"
+FIGURES_DIR = "figures/stage4"
 
 Path(FIGURES_DIR).mkdir(parents=True, exist_ok=True)
 

@@ -15,7 +15,7 @@ The project uses a public IMDb movie dataset and applies data cleaning, explorat
 
 ## Dataset
 
-The dataset used in this project is a public IMDb movie metadata dataset saved as `movie_metadata.csv`. It includes information such as movie title, duration, IMDb score, genre, and release year.
+The dataset used in this project is a public IMDb movie metadata dataset saved as `data/raw/movie_metadata.csv`.
 
 Main variables used in the analysis:
 
@@ -64,7 +64,7 @@ The analysis suggests that longer movies tend to have higher IMDb ratings on ave
 
 ## Repository Structure
 
-Recommended final organization:
+Current repository organization:
 
 ```text
 DSA210-project/
@@ -95,15 +95,16 @@ DSA210-project/
 
 ## Files in This Repository
 
-- `Proposal_yagiz.pdf`: project proposal
-- `movie_metadata.csv`: original movie dataset
-- `movies_cleaned.csv`: cleaned dataset used in analysis
-- `stage3_movie_analysis.py`: EDA and hypothesis testing script
-- `stage3_results_summary.txt`: summary of EDA and hypothesis test results
-- `stage4_ml_analysis.py`: machine learning script
+- `reports/Proposal_yagiz.pdf`: project proposal
+- `reports/DSA210_Final_Report_Yagiz_Cuhadar.pdf`: final report
+- `data/raw/movie_metadata.csv`: original movie dataset
+- `data/processed/movies_cleaned.csv`: cleaned dataset used in analysis
+- `scripts/stage3_movie_analysis.py`: EDA and hypothesis testing script
+- `scripts/stage4_ml_analysis.py`: machine learning script
+- `stage3_results_summary.txt`: summary of EDA and hypothesis testing results
 - `stage4_ml_results_summary.txt`: summary of ML model results
-- `.png` files: visualizations created during the EDA and ML stages
-- `DSA210_Final_Report_Yagiz_Cuhadar.pdf`: final report
+- `figures/stage3/`: visualizations created during the EDA stage
+- `figures/stage4/`: visualizations created during the ML stage
 - `requirements.txt`: Python dependencies
 
 ## How to Run the Code
@@ -117,13 +118,13 @@ py -3.13 -m pip install pandas numpy matplotlib scipy scikit-learn
 Run the EDA and hypothesis testing script:
 
 ```powershell
-py -3.13 stage3_movie_analysis.py
+py -3.13 scripts/stage3_movie_analysis.py
 ```
 
 Run the machine learning script:
 
 ```powershell
-py -3.13 stage4_ml_analysis.py
+py -3.13 scripts/stage4_ml_analysis.py
 ```
 
 ## Limitations and Future Work
