@@ -87,8 +87,11 @@ DSA210-project/
 │   ├── Proposal_yagiz.pdf
 │   └── DSA210_Final_Report_Yagiz_Cuhadar.pdf
 │
-├── stage3_results_summary.txt
-├── stage4_ml_results_summary.txt
+├── docs/
+│   ├── stage3_quick_steps.md
+│   ├── stage3_results_summary.txt
+│   └── stage4_ml_results_summary.txt
+│
 ├── requirements.txt
 └── README.md
 ```
@@ -101,12 +104,12 @@ DSA210-project/
 - `data/processed/movies_cleaned.csv`: cleaned dataset used in analysis
 - `scripts/stage3_movie_analysis.py`: EDA and hypothesis testing script
 - `scripts/stage4_ml_analysis.py`: machine learning script
-- `stage3_results_summary.txt`: summary of EDA and hypothesis testing results
-- `stage4_ml_results_summary.txt`: summary of ML model results
+- `docs/stage3_quick_steps.md`: quick notes for the Stage 3 workflow
+- `docs/stage3_results_summary.txt`: summary of EDA and hypothesis testing results
+- `docs/stage4_ml_results_summary.txt`: summary of ML model results
 - `figures/stage3/`: visualizations created during the EDA stage
 - `figures/stage4/`: visualizations created during the ML stage
 - `requirements.txt`: Python dependencies
-
 ## How to Run the Code
 
 Install the required Python packages:
