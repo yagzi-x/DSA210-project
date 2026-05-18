@@ -132,7 +132,5 @@ This project only uses a limited number of features, mainly runtime, genre, and 
 
 ## AI Use Disclosure
 
-AI Use Disclosure
-
 I used AI tools as a support tool during this project, mainly for organizing the project structure, improving the clarity of writing, and getting help while debugging code errors. I did not use AI as the main source of analysis. The dataset selection, code execution, model outputs, result interpretation, and final decisions were completed and checked by me.
 
